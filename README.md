@@ -61,6 +61,6 @@ PC端：https://xiaogongju.test.nmhuixin.com/ （电脑端打开）
 ## 联系我们
 
 - 微信公众号：内蒙古软件研发共享中心
-- ![公众号](doc/file/qrcode.jpg)
+- ![公众号](https://gongju.nmhuixin.com/qrcode.jpg)
 - 邮箱：tkliuxing@163.com
 - QQ：418280026
