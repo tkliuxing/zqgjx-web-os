@@ -1,0 +1,56 @@
+.header{
+    color: #47484b;
+    background-color: #fff;
+    border-bottom: 1px solid #ededed;
+}
+.header .user-name .el-dropdown-link{
+    color: #47484b;
+}
+.header .btn-fullscreen{
+    color: #409EFF;
+}
+.sidebar .el-submenu__title span{
+    color: #909faf;
+}
+.sidebar .el-submenu__title:hover {
+    background-color: #ecf5ff;
+}
+.sidebar li.el-menu-item{
+    color: #909faf;
+    background-color: #FFFFFF;
+}
+.sidebar li.el-menu-item:hover{
+    background-color: #eef1f6;
+}
+.sidebar li.el-menu-item.is-active{
+    color: #20a0ff;
+}
+.sidebar .sidebar-el-menu.el-menu{
+    background-color: #fff;
+}
+.login-wrap{
+    background: #324157;
+}
+.plugins-tips{
+    background: #eef1f6;
+}
+.plugins-tips a{
+    color: #20a0ff;
+}
+.el-upload--text em {
+    color: #20a0ff;
+}
+.pure-button{
+    background: #20a0ff;
+}
+.tags-li.active {
+    border: 1px solid #409EFF;
+    background-color: #409EFF;
+}
+.message-title{
+    color: #20a0ff;
+}
+.collapse-btn:hover{
+    background: #409EFF;
+    color: #ffffff;
+}

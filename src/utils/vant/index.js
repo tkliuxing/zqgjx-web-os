@@ -1,0 +1,17 @@
+import Vue from 'vue';
+import { Checkbox, CheckboxGroup, RadioGroup, Radio, Field, Form, Loading, Toast,Button,Picker,Popup,Step,Steps,Tag } from 'vant';
+import 'vant/lib/index.css';
+Vue.use(Checkbox);
+Vue.use(CheckboxGroup);
+Vue.use(Radio);
+Vue.use(RadioGroup);
+Vue.use(Field);
+Vue.use(Form);
+Vue.use(Loading);
+Vue.use(Toast);
+Vue.use(Button);
+Vue.use(Picker);
+Vue.use(Popup);
+Vue.use(Step);
+Vue.use(Steps);
+Vue.use(Tag);

@@ -1,0 +1,25 @@
+/*form表单后提示语样式*/
+.cg_TiShiYu {
+    margin-left: 3%;
+    font-size: 12px;
+    color: #8c939d;
+    display: inline;
+}
+
+.cg_TiShiYu > i {
+    color: #2d8cf0;
+}
+
+.cg_list_with-40 {
+    width: 40%;
+}
+
+.text_color_red{
+    color: #ef7878;
+}
+.text_color_hui{
+    color: #807979;
+}
+.text_color_lan{
+    color: #1f35dc;
+}

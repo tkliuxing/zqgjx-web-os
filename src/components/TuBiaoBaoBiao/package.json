@@ -1,0 +1,9 @@
+{
+  "name": "tubiaobaobiao",
+  "module": "index.vue",
+  "dependencies": {
+    "echarts": "^4.1.0",
+    "vue-echarts": "file:./src/components/TuBiaoBaoBiao/vue-echarts",
+    "lodash": "^4.17.21"
+  }
+}
