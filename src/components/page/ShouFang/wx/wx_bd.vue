@@ -66,8 +66,8 @@ import resource from "@/resource";
 import moment from "moment";
 import store, {LOGIN, LOGOUT, USERINFO} from "@/store";
 import {verifyMobile, verifyEmail, verifyIdCard} from "@/utils/verify.js"
+import { APP_ID } from "./constvars";
 
-const APP_ID = "";
 const TEMPLATE_ID = "FT251654980880760832";
 
 export default {

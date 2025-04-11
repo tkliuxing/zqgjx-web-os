@@ -67,7 +67,7 @@
   </el-card>
 </template>
 <script>
-// 
+//
 // TEMPLATE_ID: FT251654980880760832
 // 字段说明:
 // user_id:受访人员
@@ -87,6 +87,7 @@ import Form from "../Form.vue"
 import resource from "@/resource";
 import moment from "moment";
 import store, {LOGIN, LOGOUT, USERINFO} from "@/store";
+import { APP_ID } from "./constvars";
 
 const TEMPLATE_ID = "FT251654980880760832";
 
@@ -122,7 +123,7 @@ export default {
   },
   methods: {
     async wx_token() {
-      let url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1896f3a6cb69e5a3&redirect_uri=" + this.uri + "&response_type=code&scope=snsapi_base&state=1#wechat_redirect";
+      let url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=" + APP_ID + "&redirect_uri=" + this.uri + "&response_type=code&scope=snsapi_base&state=1#wechat_redirect";
       // setTimeout(() => {
       window.location.href = url;
       // }, 10000);

@@ -120,7 +120,7 @@ import moment from "moment";
 import {LOGIN, LOGOUT, USERINFO} from "@/store";
 import QrCode from "@/components/common/QrCode";
 import QrCodedown from "@/components/common/QrCodedown";
-
+import { APP_ID } from "./constvars";
 const TEMPLATE_ID = "FT251654980880760832";
 
 export default {
@@ -167,7 +167,7 @@ export default {
   },
   methods: {
     async wx_token() {
-      let url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1896f3a6cb69e5a3&redirect_uri=" + this.uri + "&response_type=code&scope=snsapi_base&state=1#wechat_redirect";
+      let url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=" + APP_ID + "&redirect_uri=" + this.uri + "&response_type=code&scope=snsapi_base&state=1#wechat_redirect";
       // setTimeout(() => {
       window.location.href = url;
       // }, 10000);

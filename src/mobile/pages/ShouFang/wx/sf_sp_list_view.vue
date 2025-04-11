@@ -120,6 +120,7 @@ import store, {LOGIN, LOGOUT, USERINFO} from "@/mobile/mobile.store";
 import QrCanvas from "@/mobile/components/common/QrCanvas.vue";
 // import QrCode from "@/components/common/QrCode";
 // import QrCodedown from "@/components/common/QrCodedown";
+import {wx_token} from "./constvars";
 import Vue from 'vue';
 import {Descriptions,DescriptionsItem,Row,Col,Result,Message} from 'element-ui';
 Vue.use(Descriptions);
@@ -160,7 +161,7 @@ export default {
   },
   methods: {
     async wx_token() {
-      let url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1896f3a6cb69e5a3&redirect_uri=" + this.uri + "&response_type=code&scope=snsapi_base&state=1#wechat_redirect";
+      let url = wx_token(this.uri);
       // setTimeout(() => {
       window.location.href = url;
       // }, 10000);
